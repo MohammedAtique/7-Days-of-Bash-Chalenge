@@ -13,8 +13,6 @@ mkdir -p $newdir
 
 cp -r $1/* $newdir
 
-#count=`ls -t /home/ubuntu/backup/ | grep 'backup_*' | wc -l`
-
 while true; do
 
 	count=`ls -t /home/ubuntu/backup/ | grep 'backup_*' | wc -l`
