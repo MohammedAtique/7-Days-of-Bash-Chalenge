@@ -7,7 +7,7 @@ if [ $# -eq 0 ]; then
 	exit 1
 fi
 
-newdir="/home/ubuntu/backup/backup_$(date +'%y-%m-%d-%H-%M-%S')"
+newdir="/home/ubuntu/backup/backup_$(date +'%Y-%m-%d-%H-%M-%S')"
 
 mkdir -p $newdir
 
