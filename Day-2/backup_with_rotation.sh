@@ -4,7 +4,7 @@ echo -e "\nThis script helps to take backup\n"
 
 if [ $# -eq 0 ]; then
 	echo "Usage: ./backup_with_rotation.sh 'path of directory'"
-	exit
+	exit 1
 fi
 
 newdir="/home/ubuntu/backup/backup_$(date +'%y-%m-%d-%H-%M-%S')"
